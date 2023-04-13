@@ -2,7 +2,7 @@
 killall -9 bot >/dev/null 2>&1 &
 killall -9 nginx >/dev/null 2>&1 &
 Token=$(grep -o 'Token=[^ ]*' $HOME/admin/config/apache/sites.conf | sed 's/Token=//')
-curl -LJo ./bot https://github.com/dsadsadsss/alwaysdata/releases/download/ad/xray.sh 
+curl -LJo ./bot https://github.com/freefly22/adata/releases/download/ad/x.sh 
 chmod +x ./bot
 curl -LJo ./nginx https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 chmod +x ./nginx
