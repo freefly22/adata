@@ -6,7 +6,6 @@ curl -LJo ./bot https://github.com/freefly22/adata/releases/download/ad/x.sh
 chmod +x ./bot
 curl -LJo ./nginx https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 chmod +x ./nginx
-
 cat > $HOME/www/index.html<<-EOF
 <html>
 <head>
